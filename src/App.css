@@ -1,0 +1,19 @@
+@font-face {
+  font-family: ibm;
+  src: url(/public/font/IBM_Plex_Sans_Arabic/IBMPlexSansArabic-Regular.ttf);
+  weight: 500;
+}
+@font-face {
+  font-family: ibm;
+  src: url(/public/font/IBM_Plex_Sans_Arabic/IBMPlexSansArabic-Light.ttf);
+  weight: 300;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+.Deger::before {
+  content: "|";
+
+  margin-right: 6px;
+}
